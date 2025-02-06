@@ -1,4 +1,4 @@
-import Form from '..components/Form/index.jsx'
+import Form from '../components/Form/index.jsx'
 
 export default function Contact() {
   return (

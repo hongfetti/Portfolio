@@ -1,4 +1,4 @@
-import Project from '..components/Project.jsx'
+import Project from '../components/Project.jsx'
 
 export default function Portfolio() {
     return (
