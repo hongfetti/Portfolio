@@ -1,7 +1,10 @@
+import underDev from '../assets/images/under-development.jpg'
+
 export default function Resume() {
     return (
-      <header>
+      <main>
         <h1>Resume</h1>
-      </header>
+         <img src= {underDev} alt='photo of me'/>
+      </main>
     );
   }

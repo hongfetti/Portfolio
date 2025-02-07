@@ -17,6 +17,22 @@ nav ul li {
   color: var(--accent-color)
 }
 
+#footer-icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#img-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#profile-pic {
+  max-width: 400px;
+  max-height: 100px;
+  margin-left: 100px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

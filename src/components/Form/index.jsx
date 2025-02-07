@@ -29,13 +29,8 @@ function Form() {
       setErrorMessage('Email is invalid or name was left blank. Please try enter the required fields.');
       return;
     }
-    // if (!checkPassword(password)) {
-    //   setErrorMessage(
-    //     `Choose a more secure password for the account: ${userName}`
-    //   );
-    //   return;
-    // }
-    alert(`Hello ${name}`);
+
+    alert(`Thank you ${name}, your form has successfully submitted!`);
 
     setName('');
     setTextArea('');
@@ -47,6 +42,7 @@ function Form() {
       <h1>Hello {name}</h1>
       <div className="container" id='form-container'>
       <form className="form" onSubmit={handleFormSubmit}>
+        <div>
         <input
           value={name}
           name="name"
@@ -54,6 +50,8 @@ function Form() {
           type="text"
           placeholder="Enter name"
         />
+        </div>
+        <div>
         <input
           value={email}
           name="email"
@@ -61,6 +59,8 @@ function Form() {
           type="email"
           placeholder="Enter email"
         />
+        </div>
+        <div>
         <input
           value={textArea}
           name="text area"
@@ -68,6 +68,7 @@ function Form() {
           type="text"
           placeholder="Enter Text"
         />
+        </div>
         <button type="submit">Submit</button>
       </form>
       </div>
