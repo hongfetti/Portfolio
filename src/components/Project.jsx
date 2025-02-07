@@ -19,14 +19,14 @@ const projects = [
     projectName: 'README Generator',
     projectImg: README,
     projectRepoLink: 'https://github.com/hongfetti/README-generator',
-    projectDeployedLink: '',
+    projectDeployedLink: 'https://youtu.be/0Bcxe6drRiY',
   },
   {
     id: 3,
     projectName: 'Vehicle Builder',
     projectImg: vehicleBuilder,
     projectRepoLink: 'https://github.com/hongfetti/Vehicle-Builder',
-    projectDeployedLink: '',
+    projectDeployedLink: 'https://youtu.be/qD4sCNJhR2k',
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const projects = [
     projectName: 'Employee Tracker',
     projectImg: empTracker,
     projectRepoLink: 'https://github.com/hongfetti/employee-tracker',
-    projectDeployedLink: '',
+    projectDeployedLink: 'https://youtu.be/OuKMgkM4JYg',
   },
   {
     id: 6,
