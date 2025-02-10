@@ -47,7 +47,7 @@ const projects = [
     projectName: 'Portfolio',
     projectImg: portfolio,
     projectRepoLink: 'https://github.com/hongfetti/Portfolio',
-    projectDeployedLink: '',
+    projectDeployedLink: 'https://portfolio-a2lw.onrender.com/',
   },
 ];
 
