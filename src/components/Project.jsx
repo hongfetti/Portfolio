@@ -1,5 +1,5 @@
 import List from './List.jsx'
-import shelter from '../assets/images/sayes-shelter.png'
+import closet from '../assets/images/in-my-closet.png'
 import README from '../assets/images/README.jpg'
 import vehicleBuilder from '../assets/images/vehicle-builder.jpg'
 import empTracker from '../assets/images/employee-tracker.jpg'
@@ -9,10 +9,10 @@ import portfolio from '../assets/images/portfolio.jpg'
 const projects = [
   {
     id: 1,
-    projectName: "Saye's Shelter (Project 1)",
-    projectImg: shelter,
-    projectRepoLink: 'https://github.com/je210506/Project-1-Group-6',
-    projectDeployedLink: '',
+    projectName: "In My Closet",
+    projectImg: closet,
+    projectRepoLink: 'https://github.com/hongfetti/in-my-closet',
+    projectDeployedLink: 'https://in-my-closet-89qk.onrender.com',
   },
   {
     id: 2,

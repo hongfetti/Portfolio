@@ -1,13 +1,21 @@
-import profilePic from '../assets/images/me.jpg'
+import profilePic from "../assets/images/me.jpg";
 
 export default function About() {
-    return (
-      <div>
-        <h1>About Me</h1>
-        <div id='img-container'>
-        <img id='profile-pic' src= {profilePic} alt='photo of me'/>
+  return (
+    <div>
+      <h1 className="about-me">About Me</h1>
+      <div className="d-flex">
+        <div className="row-4" id="img-container">
+          <img id="profile-pic" src={profilePic} alt="photo of me" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi facilis consequatur quae ipsa sapiente nemo impedit ducimus quod, officia perferendis aspernatur odit magnam amet, itaque iure esse aperiam. Quo?</p>
+        <p className="row-8">
+          Thank you for visiting my Portfolio! lots of experiment text to test
+          out things gotta keep typing things to seee the changes.
+        </p>
+        <article className="row-8">
+          testing this now
+        </article>
       </div>
-    );
-  }
+    </div>
+  );
+}
