@@ -2,6 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div>
+        <p className="footer-text">Thank you for visiting! Contact me here!</p>
         <div id="footer-icons-container">
           <a href="https://github.com/hongfetti" target="_blank">
             <img
@@ -17,8 +18,7 @@ export default function Footer() {
               alt="linkedIn logo"
             />
           </a>
-        </div>
-        <p className="footer-text">Thank you for visiting!</p>
+        </div>       
       </div>
     </footer>
   );
